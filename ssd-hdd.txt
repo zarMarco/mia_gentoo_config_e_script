@@ -109,6 +109,9 @@ Device          Start        End   Sectors   Size Type
 /dev/sda5  1924820992 1953523711  28702720  13,7G Microsoft basic data
 /dev/sda6   489213952  505620479  16406528   7,8G Linux swap
 /dev/sda7   505620480 1217050623 711430144 339,2G Linux filesystem
+/dev/sda8  1217050624 1217460223    409600   200M EFI System
+/dev/sda9  1217460224 1915402231 697942008 332,8G FreeBSD UFS
+/dev/sda10 1915402232 1922813951   7411720   3,5G FreeBSD swap
 
 Partition table entries are not in disk order.
 
