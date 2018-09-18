@@ -1,0 +1,18 @@
+
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/nvme0n1p5
+UUID=8b273c39-3db0-40d9-8f4f-cb10c6193d90	/          btrfs      rw,noatime,ssd,space_cache,autodefrag,subvol=/@,subvol=@	0 0
+
+# /dev/sda2
+UUID=0817-CB61       /boot      vfat       rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 2
+
+# /dev/nvme0n1p5
+UUID=8b273c39-3db0-40d9-8f4f-cb10c6193d90	/home      btrfs        rw,noatime,ssd,space_cache,autodefrag,subvol=/@home, subvol=@home  0 0
+
+# /dev/nvme0n1p2
+UUID=b85c72a4-2dbc-4fbd-95e0-58cef73a64b4	none       swap       defaults,pri=-2	0 0
+
+# /dev/sda5 LABEL=dati
+UUID=4EFAF3AAFAF38D09	/home/zar_marco/Dati	ntfs       rw,nosuid,nodev,user_id=0,group_id=0,allow_other,blksize=4096	0 0

@@ -1,0 +1,25 @@
+# These settings were set by the catalyst build script that automatically
+# built this stage.
+# Please consult /usr/share/portage/config/make.conf.example for a more
+# detailed example.
+CFLAGS="-O2 -march=native -pipe"
+MAKEOPTS="-j9"
+USE="-systemd dbus alsa pulseaudio X"
+# NOTE: This stage was built with the bindist Use flag enabled
+PORTDIR="/usr/portage"
+DISTDIR="/usr/portage/distfiles"
+PKGDIR="/usr/portage/packages"
+ACCEPT_KEYWORDS="~amd64"
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C
+
+GENTOO_MIRRORS=" rsync://trumpetti.atm.tut.fi/gentoo/ ftp://ftp.free.fr/mirrors/ftp.gentoo.org/ ftp://gentoo.imj.fr/pub/gentoo/ http://mirrors.linuxant.fr/distfiles.gentoo.org/ ftp://mirrors.linuxant.fr/distfiles.gentoo.org/ ftp://mirror.switch.ch/mirror/gentoo/ http://mirror.switch.ch/ftp/mirror/gentoo/"
+LINGUAS="it"
+L10N="it"
+GRUB_PLATFORMS="emu efi-64"
+VIDEO_CARDS="nvidia"
+
+EMERGE_DEFAULT_OPTS="--ask y --verbose y --keep-going y"
+
