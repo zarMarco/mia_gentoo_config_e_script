@@ -1,0 +1,11 @@
+# created by eselect-repo
+
+[gentoo]
+location = /var/db/repos/gentoo
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/gentoo.git
+
+[kde]
+location = /var/db/repos/kde
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/kde.git

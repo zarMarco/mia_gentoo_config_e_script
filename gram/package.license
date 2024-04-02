@@ -1,0 +1,8 @@
+sys-kernel/linux-firmware linux-fw-redistributable
+sys-firmware/intel-microcode intel-ucode
+app-editors/vscode Microsoft-vscode
+media-sound/spotify Spotify
+www-client/google-chrome-unstable google-chrome
+games-util/steam-launcher ValveSteamLicense
+net-im/whatsapp-desktop-bin android unRAR all-rights-reserved
+www-client/microsoft-edge-dev microsoft-edge
